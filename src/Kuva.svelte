@@ -3,7 +3,7 @@
   export let promise;
 </script>
 
-<main>
+<div>
   {#if promise}
     {#await promise}
       <div class="spinner">
@@ -29,7 +29,7 @@
       <p style="color: red">{error.message}</p>
     {/await}
   {/if}
-</main>
+</div>
 
 <style>
   img {

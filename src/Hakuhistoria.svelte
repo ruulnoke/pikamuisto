@@ -3,7 +3,7 @@
   import hakusanat from './store';
 </script>
 
-<main in:fly={{ y: 100, duration: 2000 }} out:fade>
+<div in:fly={{ y: 100, duration: 2000 }} out:fade>
   {#if $hakusanat.length < 1}
     <p>Ei hakuja</p>
   {:else}
@@ -11,4 +11,4 @@
       <p>{hakusana}</p>
     {/each}
   {/if}
-</main>
+</div>

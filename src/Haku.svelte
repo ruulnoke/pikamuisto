@@ -39,8 +39,8 @@
   }
 </script>
 
-<main>
+<div>
   <p>Hae yhdellä tai useammalla hakusanalla.</p>
   <input type="text" id="keyword" name="keyword" bind:value={keyword} />
   <Button on:click={startSearch} disabled={!valid}>Haku</Button>
-</main>
+</div>

@@ -2,7 +2,7 @@
   import { fade, fly } from 'svelte/transition';
 </script>
 
-<main in:fly={{ y: 100, duration: 2000 }} out:fade>
+<div in:fly={{ y: 100, duration: 2000 }} out:fade>
   <p>
     Hae yhdellä tai useammalla sanalla. Kokeile myös numeroita. Kirjoita
     esimerkiksi "jyväskylä koira" tai "22b". Tulokset saattavat yllättää.
@@ -12,7 +12,7 @@
     CC BY 4.0. Tismalleen samalla haulla voi saada erilaisen tuloksen vain
     Finnan tietokannan päivittyessä.
   </p>
-</main>
+</div>
 
 <style>
   p {
