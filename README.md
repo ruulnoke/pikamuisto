@@ -2,7 +2,7 @@
 
 ## Kuvaus
 
-Pikamuiston avulla käyttäjä voi nauttia vanhoista kuvista ilman moninaisten listausten ja linkkien hälyä. Käyttäjä hakee kuvan Kansallisarkiston ylläpitämästä Finna-palvelusta haluamallaan hakusanalla. Sovellus näyttää ensimmäisen hakusanaan sopivan kuvan, jolla on CC BY 4.0 -lisenssi.
+Pikamuiston avulla voi nauttia vanhoista kuvista ilman moninaisten listausten ja linkkien hälyä. Kansallisarkiston ylläpitämästä Finna-palvelusta haetaan kuva käyttäjän syöttämällä hakusanalla. Sovellus näyttää ensimmäisen hakusanaan sopivan kuvan, jolla on CC BY 4.0 -lisenssi. Testaa sovellusta täällä: https://ruulnoke.github.io/pikamuisto/.
 
 ## Lähteet
 
